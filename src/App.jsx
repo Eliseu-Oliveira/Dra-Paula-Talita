@@ -213,7 +213,7 @@ function App() {
                 <ul className="space-y-2">
                   <li className="flex items-center space-x-3">
                     <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span className="text-gray-700">Graduação em Odontologia - USP</span>
+                    <span className="text-gray-700">Graduação em Odontologia - UFU</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <CheckCircle className="w-5 h-5 text-green-500" />
