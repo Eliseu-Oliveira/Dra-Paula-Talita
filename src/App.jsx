@@ -363,8 +363,8 @@ function App() {
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <p className="text-white font-semibold">Rua das Flores, 123 - Vila Madalena</p>
-                    <p className="text-blue-100">São Paulo - SP, 05433-000</p>
+                    <p className="text-white font-semibold">Av. dos Eucaliptos, 859 - sala 1 - Jardim Patricia</p>
+                    <p className="text-blue-100">Uberlândia - MG, 38414-123</p>
                   </div>
                 </div>
 
