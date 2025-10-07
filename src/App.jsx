@@ -198,7 +198,7 @@ const handleClick = (e, id) => {
                   </Badge>
                   <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
                     Dra. Paula Talita
-                    <span className="block text-[#B78B68]">Dentista</span>
+                    <span className="block text-[#B78B68]">Cirurgiã-Dentista</span>
                   </h1>
                   <p className="text-xl text-gray-600 leading-relaxed">
                     Transformando sorrisos com excelência, tecnologia avançada e atendimento humanizado. 
