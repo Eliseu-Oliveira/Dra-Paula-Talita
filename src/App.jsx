@@ -99,7 +99,7 @@ function App() {
       <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Smile className="w-8 h-8 text-blue-600" />
+            <Smile className="w-8 h-8 text-[#B78B68]" />
             <h1 className="text-xl font-bold text-gray-900">Dra. Paula Talita</h1>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
@@ -108,10 +108,6 @@ function App() {
             <a href="#servicos" className="text-gray-700 hover:text-blue-600 transition-colors">Serviços</a>
             <a href="#contato" className="text-gray-700 hover:text-blue-600 transition-colors">Contato</a>
           </nav>
-          <Button className="bg-blue-600 hover:bg-blue-700">
-            <Phone className="w-4 h-4 mr-2" />
-            Agendar Consulta
-          </Button>
         </div>
       </header>
 
@@ -126,7 +122,7 @@ function App() {
                 </Badge>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
                   Dra. Paula Talita
-                  <span className="block text-blue-600">Dentista</span>
+                  <span className="block text-[#B78B68]">Dentista</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
                   Transformando sorrisos com excelência, tecnologia avançada e atendimento humanizado. 
@@ -135,15 +131,11 @@ function App() {
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href="https://wa.me/553484067569" target="_blank" rel="noopener noreferrer">
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                  <Button size="lg"  className="bg-[#B78B68] hover:bg-[#A37455]">
                     <MessageCircle className="w-5 h-5 mr-2" />
                     Agendar no WhatsApp
                   </Button>
                 </a>
-                <Button size="lg" variant="outline">
-                  <Phone className="w-5 h-5 mr-2" />
-                  Ligar Agora
-                </Button>
               </div>
               <div className="flex items-center space-x-6 text-sm text-gray-600">
                 <div className="flex items-center space-x-1">
@@ -281,7 +273,7 @@ function App() {
                   <CardDescription className="text-gray-600 leading-relaxed">
                     {service.description}
                   </CardDescription>
-                  <Button variant="outline" className="w-full mt-4 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                  <Button variant="outline" className="w-full mt-4 group-hover:bg-[#B78B68] group-hover:text-white transition-colors">
                     Saiba Mais
                   </Button>
                 </CardContent>
@@ -320,7 +312,7 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="contato" className="py-16 bg-blue-600">
+      <section id="contato" className="py-16 bg-[#B78B68] hover:bg-[#A37455]">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
@@ -381,15 +373,11 @@ function App() {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <a href="https://wa.me/553484067569" target="_blank" rel="noopener noreferrer">
-                  <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+                  <Button size="lg" className="bg-white text-[#B78B68] hover:bg-gray-100">
                     <MessageCircle className="w-5 h-5 mr-2" />
                     WhatsApp
                   </Button>
                 </a>
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
-                  <Phone className="w-5 h-5 mr-2" />
-                  Ligar Agora
-                </Button>
               </div>
             </div>
 
@@ -428,7 +416,7 @@ function App() {
                     placeholder="Como podemos ajudar você?"
                   ></textarea>
                 </div>
-                <Button className="w-full bg-blue-600 hover:bg-blue-700" size="lg">
+                <Button className="w-full bg-[#B78B68] hover:bg-[#A37455]" size="lg">
                   Enviar Mensagem
                 </Button>
               </form>
@@ -443,7 +431,7 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <Smile className="w-8 h-8 text-blue-400" />
+                <Smile className="w-8 h-8 text-[#B78B68]" />
                 <h3 className="text-xl font-bold">Dra. Paula Talita</h3>
               </div>
               <p className="text-gray-400 leading-relaxed">
