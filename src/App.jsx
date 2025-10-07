@@ -462,46 +462,20 @@ const handleClick = (e, id) => {
                 </a>
               </div>
             </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-xl">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Formulário de Contato</h3>
-              <form className="space-y-4">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Nome Completo</label>
-                  <input 
-                    type="text" 
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="Seu nome completo"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">WhatsApp</label>
-                  <input 
-                    type="tel" 
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="(11) 99999-9999"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">E-mail</label>
-                  <input 
-                    type="email" 
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="seu@email.com"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Mensagem</label>
-                  <textarea 
-                    rows="4"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="Como podemos ajudar você?"
-                  ></textarea>
-                </div>
-                <Button className="w-full bg-[#B78B68] hover:bg-[#A37455]" size="lg">
-                  Enviar Mensagem
-                </Button>
-              </form>
+            <div className="bg-white rounded-2xl p-4 shadow-xl overflow-hidden">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Localização</h3>
+              <div className="w-full h-80 rounded-xl overflow-hidden">
+                <iframe
+                  title="Localização - Av. dos Eucaliptos, 859 - Uberlândia"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.4379767327396!2d-48.327564788424574!3d-18.91199840734503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94a443f3714e9a03%3A0x3542b8d5f74b6aad!2sAv.%20dos%20Eucaliptos%2C%20859%20-%20Jardim%20Patricia%2C%20Uberl%C3%A2ndia%20-%20MG%2C%2038414-123!5e0!3m2!1spt-BR!2sbr!4v1759866083597!5m2!1spt-BR!2sbr"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
