@@ -22,8 +22,8 @@ import './App.css'
 // Importando as imagens
 import dentistaProfissional from './assets/dentista-profissional.jpg'
 import consultorioModerno from './assets/consultorio-moderno.jpg'
-import Endodontia from './assets/Endodontia.jpg'
-import ortodontia from './assets/ortodontia.jpg'
+import harmonizacaofacial from './assets/harmonizacaofacial.png'
+import proteses from './assets/proteses.jpg'
 import implante from './assets/implante.webp'
 import profilaxia from './assets/profilaxia.jpg'
 import clareamento from './assets/clareamento.jpg'
@@ -40,9 +40,9 @@ function App() {
     },
     {
       icon: <Zap className="w-8 h-8" />,
-      title: "Ortodontia",
-      description: "Correção do posicionamento dos dentes e mordida com as mais modernas técnicas ortodônticas.",
-      image: ortodontia
+    title: "Próteses em Geral",
+    description: "Reabilitação estética e funcional do sorriso por meio de próteses personalizadas, devolvendo conforto, mastigação e harmonia ao sorriso com resultados naturais.",
+      image: proteses
     },
     {
       icon: <Shield className="w-8 h-8" />,
@@ -64,9 +64,9 @@ function App() {
     },
     {
       icon: <Award className="w-8 h-8" />,
-      title: "Endodontia",
-      description: "Tratamento de canal com tecnologia avançada e máximo conforto para o paciente.",
-      image: Endodontia
+      title: "Harmonizacao Facial",
+      description: "Conjunto de procedimentos estéticos minimamente invasivos que realçam a beleza natural, equilibram os traços e rejuvenescem o rosto com resultados sutis e harmoniosos.",
+      image: harmonizacaofacial
     }
   ]
 
@@ -99,7 +99,7 @@ function App() {
       <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Smile className="w-8 h-8 text-[#B78B68]" />
+            <img src="/logo.png" alt="Logo" className="w-8 h-8" />
             <h1 className="text-xl font-bold text-gray-900">Dra. Paula Talita</h1>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
@@ -160,8 +160,8 @@ function App() {
               </div>
               <div className="absolute -bottom-6 -left-6 bg-white rounded-xl p-4 shadow-lg">
                 <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                    <Smile className="w-6 h-6 text-blue-600" />
+                  <div className="w-12 h-12 bg-white-100 rounded-full flex items-center justify-center">
+                    <Smile className="w-6 h-6 text-[#B78B68]" />
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">+1000</p>
@@ -195,7 +195,7 @@ function App() {
                 </h2>
                 <p className="text-lg text-gray-600 leading-relaxed">
                   Dra. Paula Talita é formada em Odontologia pela Universidade Federal de Uberlândia (UFU) 
-                  com Especialização em Harmonização Orofacial. Com mais de 10 anos de experiência, 
+                  com Especialização em Harmonização Facial. Com mais de 10 anos de experiência, 
                   dedica-se a oferecer tratamentos de excelência com foco no bem-estar de seus pacientes.
                 </p>
               </div>
@@ -209,15 +209,15 @@ function App() {
                   </li>
                   <li className="flex items-center space-x-3">
                     <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span className="text-gray-700">Especialização em Ortodontia</span>
+                    <span className="text-gray-700">Especialização em  Harmonização Facial</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span className="text-gray-700">Especialização em Implantodontia</span>
+                    <span className="text-gray-700">Curso de Estética Dental anterior, Curso de  facetas de resina e lentes de porcelana</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <CheckCircle className="w-5 h-5 text-green-500" />
-                    <span className="text-gray-700">Curso de Estética Dental Avançada</span>
+                    <span className="text-gray-700">Aperfeiçoamento em próteses sobre implantes</span>
                   </li>
                 </ul>
               </div>
@@ -246,8 +246,7 @@ function App() {
               Tratamentos Completos para seu Sorriso
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Oferecemos uma ampla gama de serviços odontológicos com tecnologia de ponta 
-              e atendimento personalizado para cada necessidade.
+              Oferecemos Clínica geral ,Prevenção (limpeza) ,  Clareamento dental, Todos os tipos de próteses , Facetas de resina , Lentes de porcelana ,Harmonização gavial
             </p>
           </div>
 
@@ -426,49 +425,49 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="space-y-4">
-              <div className="flex items-center space-x-2">
-                <Smile className="w-8 h-8 text-[#B78B68]" />
-                <h3 className="text-xl font-bold">Dra. Paula Talita</h3>
-              </div>
-              <p className="text-gray-400 leading-relaxed">
-                Cuidando do seu sorriso com excelência, tecnologia avançada e atendimento humanizado.
-              </p>
-              <div className="flex items-center space-x-2 text-sm text-gray-400">
-                <Shield className="w-4 h-4" />
-                <span>CRO 12345-SP</span>
-              </div>
-            </div>
-
-            <div className="space-y-4">
-              <h4 className="text-lg font-semibold">Contato</h4>
-              <div className="space-y-2 text-gray-400">
-                <p>+55 34 8406-7569</p>
-                <p>contato@paulatalita.com.br</p>
-                <p>Rua das Flores, 123 - Vila Madalena<br />São Paulo - SP, 05433-000</p>
-              </div>
-            </div>
-
-            <div className="space-y-4">
-              <h4 className="text-lg font-semibold">Horários</h4>
-              <div className="space-y-2 text-gray-400">
-                <p>Segunda à Sexta: 8h às 18h</p>
-                <p>Sábado: 8h às 12h</p>
-                <p>Domingo: Fechado</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center">
-            <p className="text-gray-400">
-              © 2024 Dra. Paula Talita. Todos os direitos reservados.
-            </p>
-          </div>
+     <footer className="bg-[#0c1525] text-white py-12">
+  <div className="container mx-auto px-4">
+    <div className="grid md:grid-cols-3 gap-8 items-center">
+      {/* Logo */}
+      <div className="flex flex-col items-center md:items-start space-y-4">
+        <div className="flex items-center space-x-4">
+          <img src="/logo.png" alt="Logo 1" className="w-16 h-16 object-contain" />
+          <img src="/logo2.png" alt="Logo 2" className="h-60 w-60 object-contain" />
         </div>
-      </footer>
+      </div>
+
+      {/* Contato */}
+      <div className="flex flex-col justify-center text-center md:text-left space-y-4">
+        <h4 className="text-lg font-semibold text-white">Contato</h4>
+        <div className="space-y-2 text-gray-400">
+          <p>+55 34 8406-7569</p>
+          <p>contato@paulatalita.com.br</p>
+          <p>
+            Av. dos Eucaliptos, 859 - sala 1 - Jardim Patricia<br />
+            Uberlândia - MG, 38414-123
+          </p>
+        </div>
+      </div>
+
+      {/* Horários */}
+      <div className="flex flex-col justify-center text-center md:text-left space-y-4">
+        <h4 className="text-lg font-semibold text-white">Horários</h4>
+        <div className="space-y-2 text-gray-400">
+          <p>Segunda à Sexta: 8h às 18h</p>
+          <p>Sábado: 8h às 12h</p>
+          <p>Domingo: Fechado</p>
+        </div>
+      </div>
+    </div>
+
+    <div className="border-t border-gray-800 mt-10 pt-6 text-center">
+      <p className="text-gray-400 text-sm">
+        © 2025 Dra. Paula Talita. Todos os direitos reservados.
+      </p>
+    </div>
+  </div>
+</footer>
+
 
       {/* WhatsApp Float Button */}
       <div className="fixed bottom-6 right-6 z-50">
