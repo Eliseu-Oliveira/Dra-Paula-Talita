@@ -169,14 +169,13 @@ const handleClick = (e, id) => {
           onClick={(e) => handleClick(e, item.id)}
           className={`relative group transition-colors duration-300 ${
             activeSection === item.id
-              ? "text-blue-600"
-              : "text-gray-700 hover:text-blue-600"
+              ? "text-[#B78B68]"
+              : "text-gray-700 hover:text-[#B78B68]"
           }`}
         >
           {item.label}
-          {/* underline animado */}
           <span
-            className={`absolute left-0 -bottom-1 h-[2px] bg-blue-600 transition-all duration-300 ${
+            className={`absolute left-0 -bottom-1 h-[2px] bg-[#B78B68] transition-all duration-300 ${
               activeSection === item.id ? "w-full" : "w-0 group-hover:w-full"
             }`}
           ></span>
